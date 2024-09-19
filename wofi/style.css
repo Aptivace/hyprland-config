@@ -1,9 +1,9 @@
 window {
-  background-color: #171717;
+  background-color: #1a1b26;
 }
 
 * {
-  font-family: "Fira Code";
+  font-family: "Jetbrains Mono";
   color: #fff;
 }
 
@@ -12,7 +12,8 @@ window {
 }
 
 #input {
-  background-color: #262626;
+  background-color: #1a1b26;
+  color: #c0caf5;
   outline: none;
   box-shadow: none;
   border: 0;
@@ -35,6 +36,11 @@ window {
 }
 
 #entry:selected {
-  background-color: #262626;
+  background-color: #c0caf5;
   outline: none;
 }
+
+#text:selected {
+  color: #1a1b26;
+}
+
